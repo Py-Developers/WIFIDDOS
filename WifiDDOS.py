@@ -5,7 +5,7 @@ except:
 
 if __name__ == "__main__":
     if len (sys.argv) > 1:
-        os.system("cd && rm -rf WifiDDOS && git clone https://github.com/Py-Developers/WIFIDDOS ")
+        os.system("cd && rm -rf WIFIDDOS && git clone https://github.com/Py-Developers/WIFIDDOS ")
 	
 
 username = os.system("whoami")
