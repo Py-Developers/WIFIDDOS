@@ -3,9 +3,9 @@ echo "--------------------"
 echo "|      Ты на?      |"
 echo "|------------------|"
 echo "| 1. Termux        |"
-echo "| 2. Unix          |"
+echo "| 2. Другой Unix   |"
 echo "|                  |"
-echo "| choose 1 or 2:   |"
+echo "| Введите 1 или 2: |"
 echo "--------------------"
 read numb
 if [ $numb = "1" ]
@@ -17,6 +17,7 @@ then
 	pip3 install requests
 	pip3 install colorama
 	
+	spamer
 else
 	if [ $numb = "2" ]
 	then
@@ -36,5 +37,4 @@ else
 	else
 		echo "Некорректный ввод"
 	fi
-fi
 fi
