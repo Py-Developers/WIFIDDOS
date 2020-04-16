@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
 username = os.system("whoami")
 if username is not "root":
-    print("You must start whis root!(sudo or su)")print "You aren't root"
+    print("You must start whis root!(sudo or su)")
 else:
 	module = input("input you`r interface(if you don`t know type in new session ifconfig): ")
     os.system("airmon-ng start " + module)
