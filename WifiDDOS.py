@@ -3,6 +3,11 @@ try:
 except:
 	print("Start install.sh!!!")
 
+if __name__ == "__main__":
+    if len (sys.argv) > 1:
+        os.system("cd && rm -rf WifiDDOS && git clone https://github.com/Py-Developers/WIFIDDOS ")
+	
+
 username = os.system("whoami")
 if username is not "root":
     print("You must start whis root!(sudo or su)")print "You aren't root"
