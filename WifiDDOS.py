@@ -1,11 +1,13 @@
-if __name__ == "__main__":
-    if len (sys.argv) > 1:
-        os.system("cd && rm -rf WIFIDDOS && git clone https://github.com/Py-Developers/WIFIDDOS ")
-
 try:
 	import os, sys, time, requests
 except:
 	print("Start install.sh!!!")
+
+if __name__ == "__main__":
+    if len (sys.argv) > 1:
+        os.system("cd && rm -rf WIFIDDOS && git clone https://github.com/Py-Developers/WIFIDDOS ")
+
+
 
 username = os.system("whoami")
 if username is not "root":
