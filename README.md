@@ -30,6 +30,4 @@ There you can easy hack/ddos wifi
 
 ___My links:___
 
-___instagram: https://www.instagram.com/young.degradant/___
-
 ___telegram: @R5whos___ 
